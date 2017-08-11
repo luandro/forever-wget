@@ -1,0 +1,45 @@
+{
+  "name": "forever-wget",
+  "version": "1.0.0",
+  "description": "Wget with infinite retry",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "precommit": "lint-staged"
+  },
+  "bin": {
+    "4wget": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luandro/forever-wget.git"
+  },
+  "keywords": [
+    "wget",
+    "infinite",
+    "retry",
+    "cli"
+  ],
+  "author": "Luandro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luandro/forever-wget/issues"
+  },
+  "homepage": "https://github.com/luandro/forever-wget#readme",
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "commander": "^2.11.0",
+    "got": "^7.1.0",
+    "http": "0.0.0",
+    "https": "^1.0.0",
+    "ora": "^1.3.0",
+    "progress": "^2.0.0",
+    "shelljs": "^0.7.8",
+    "tunnel": "0.0.5",
+    "url": "^0.11.0",
+    "zlib": "^1.0.5"
+  },
+  "devDependencies": {
+    "prettier": "^1.5.3"
+  }
+}
